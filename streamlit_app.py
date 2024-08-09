@@ -6,7 +6,8 @@ num1 = [1,2,3]
 num2 = [4,5,6]
 
 for question in questions:
-    with st.form("my_form"):
+    
+    with st.form("Question",question):
         st.write("Question number: ", question)
         
         n1 = num1[question]
