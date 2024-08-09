@@ -1,5 +1,9 @@
 import streamlit as st
 
+if st.button("Refresh"):
+  st.cache_resource.clear()
+  st.rerun()
+
 questions = [1,2,3]
 
 num1 = [1,2,3]
