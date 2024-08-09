@@ -4,6 +4,9 @@ if st.button("Refresh"):
   st.cache_resource.clear()
   st.rerun()
 
+
+st.title("Maths Addition Test")
+
 questions = [1,2,3]
 
 num1 = [1,2,3]
@@ -34,4 +37,3 @@ for question in questions:
         else:
             st.write(" YOU GET A RED CAAAAAAAAARRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRD")
 
-    st.write("Outside the form")
