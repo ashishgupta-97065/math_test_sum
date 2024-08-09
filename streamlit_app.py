@@ -10,7 +10,7 @@ num1 = [1,2,3]
 num2 = [4,5,6]
 
 for question in questions:
-  form_num = "Question" + question
+  form_num = "Question" + str(question)
   with st.form(form_num):
     st.write("Question number: ", question)
     
