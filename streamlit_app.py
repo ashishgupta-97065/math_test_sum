@@ -10,12 +10,13 @@ num1 = [1,2,3]
 num2 = [4,5,6]
 
 for question in questions:
+  count = question - 1
   form_num = "Question" + str(question)
   with st.form(form_num):
     st.write("Question number: ", question)
     
-    n1 = num1[question]
-    n2 = num2[question]
+    n1 = num1[count]
+    n2 = num2[count]
   
     sum = n1 + n2
     
