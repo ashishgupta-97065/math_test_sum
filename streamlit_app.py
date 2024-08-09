@@ -28,9 +28,9 @@ for question in questions:
     
     submitted = st.form_submit_button("Submit")
     if submitted:
-        st.write("Question: ", n1, " + ", n2)
+        #st.write("Question: ", n1, " + ", n2)
         st.write("Actual Answer: ", sum)
-        st.write("Your Answer: ", ans)
+        #st.write("Your Answer: ", ans)
         
         if ans==sum:
             st.write( " YAY YOU ARE CORRRRRRRREEEEEECCCCCCTTTTTTTTTTTTTTTTTT")
